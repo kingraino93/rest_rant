@@ -4,9 +4,11 @@ require('dotenv').config()
 const express = require ('express')
 const app = express()
 
-app.get ('/search', function (req, res) {
-    console.log("QUERY PARAMS", req.query)
-    res.send('RestaurantPage')
+app.get ('/:color', function (req, res) {
+    console.log("QUERY PARAMS", req.params.color)
+    res.send(`
+            <h1 style='color:${req.params.color}'>Restaurant</h1>
+        `)
 })
 
 app.get ('/', function (req, res) {
