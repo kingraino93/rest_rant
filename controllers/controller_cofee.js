@@ -15,11 +15,13 @@ router.get('/:coffee', function (req, res) {
     
         <nav class="navbar navbar-inverse">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Welcome</a>
+            <a class="navbar-brand" href="#">Home</a>
+            <a class="navbar-brand" href="#">Places</a>
+
     
           </div>
           <ul class="nav navbar-nav">
-            <li><a href="new_signup.html">Sign In</a></li>
+            <li><a href="new_signup.html">New Places</a></li>
           </ul>
         </nav>
     
