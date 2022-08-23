@@ -19,8 +19,6 @@ function Default(html) {
                         <li><a href="new_signup.html">New Place</a></li>
                     </ul>
                 </nav>
-                <div class="container"></div>
-                <div class="jumbortron"></div>
                 <div className="container">
                     {html.children}
                 </div>
