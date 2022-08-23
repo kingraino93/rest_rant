@@ -15,8 +15,15 @@ coffee.get('/', (req, res) => {
 
 // SHOW
 coffee.get('/:arrayIndex', (req, res) => {
-  res.send(Coffee[req.params.arrayIndex])
+  if (Coffee[req.params.arrayIndex]) {
+    res.render('Show', {
+      coffee:Coffee[req.params.arrayIndex]
+    })
+  } else {
+    res.send('404')
+  }
 })
+
 
 
 module.exports = coffee

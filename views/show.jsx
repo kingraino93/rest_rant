@@ -1,0 +1,25 @@
+const coffee = require("../models/coffee")
+
+function Show({ coffee }) {
+    // Confirm we are getting our coffee data in the terminal.
+    // console.log(coffee.name)
+    return (
+        <Default>
+            <h3>{coffee.name}</h3>
+            <p>
+                and it
+                {
+                    coffee.hasGluten
+                        ? <span> does </span>
+                        : <span> does NOT </span>
+                }
+                have gluten.
+            </p>
+            <img src={coffee.image} alt={coffee.name} />
+            <li><a href="/coffee">Go home</a></li>
+        </Default>
+
+    )
+}
+
+module.exports = Show
