@@ -6,6 +6,16 @@ function Show({ coffee }) {
     return (
         <Default>
             <h3>{coffee.name}</h3>
+
+
+            <form action={`/coffee/${index}?_method=DELETE`} method="POST">
+                <a href={`/coffee/${index}/edit`}><button>Edit</button></a>
+
+                <input type='submit' value="DELETE" />
+            </form>
+
+
+
             <p>
                 and it
                 {

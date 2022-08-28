@@ -7,7 +7,6 @@ function Default(html) {
                 <title>Default</title>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"></link>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossOrigin="anonymous" />
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossOrigin="anonymous" />
                 <link rel="stylesheet" href="/main.css" />
             </head>
             <body>
@@ -29,6 +28,7 @@ function Default(html) {
                     <div className="container">
                         {html.children}
                     </div>
+                    <div><img src="https://easyhomecoffee.com/ezoimgfmt/727464-2427128-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/10/adjusting-manual-coffee-grinder-950px.jpg?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-1" alt="" /></div>
                 </div>
             </body>
         </html>
